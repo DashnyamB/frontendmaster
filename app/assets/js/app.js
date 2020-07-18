@@ -8,6 +8,7 @@ let stickHeader = new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 85);
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 50);
 let mobileMenu = new MobileMenu();
+
 let modal;
 document.querySelectorAll(".open-modal").forEach((el) => {
   el.addEventListener("click", (e) => {
@@ -24,6 +25,7 @@ document.querySelectorAll(".open-modal").forEach((el) => {
     }
   });
 });
+alert("haha");
 
 // webpack - ыг watch хийж байгаа
 if (module.hot) {

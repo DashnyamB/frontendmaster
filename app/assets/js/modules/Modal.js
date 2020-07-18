@@ -1,7 +1,6 @@
 class Modal {
   constructor() {
     this.injectHTML();
-
     this.modal = document.querySelector(".modal");
     this.closeIcon = document.querySelector(".modal__close");
     this.events();
