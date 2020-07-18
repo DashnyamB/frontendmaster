@@ -25,7 +25,6 @@ document.querySelectorAll(".open-modal").forEach((el) => {
     }
   });
 });
-alert("haha");
 
 // webpack - ыг watch хийж байгаа
 if (module.hot) {
