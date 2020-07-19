@@ -5,6 +5,18 @@ import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
 import ClientArea from "./modules/ClientArea";
 
+// Энд React тай холбоотой кодууд байна
+import React from "react";
+import ReactDOM from "react-dom";
+
+//Өөрсдийн бичиж өгсөн React Component - ыг импорт хийх
+import MyReactComponent from "./modules/MyReactComponent";
+
+ReactDOM.render(
+  <MyReactComponent />,
+  document.querySelector("#my-react-example")
+);
+
 new ClientArea();
 let stickHeader = new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 85);
